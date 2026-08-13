@@ -19,7 +19,7 @@ public:
         }
         while(fast) {
             slow = slow->next;
-            fast = fast->next;
+            fast= fast->next;
         }
         slow->next = slow->next->next;
         return dummy->next;
